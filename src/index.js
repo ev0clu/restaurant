@@ -1,1 +1,5 @@
-console.log('hello world123');
+import './assets/style.css';
+
+import { createHomePage } from './modules/home';
+
+createHomePage();
