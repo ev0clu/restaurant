@@ -226,7 +226,7 @@ main {
     justify-self: center;
 }
 
-.text {
+.main-home .text {
     grid-column: 1/4;
     display: flex;
     flex-direction: column;
@@ -247,49 +247,6 @@ main {
 .main-home p:nth-child(2) {
     font-size: 1.5rem;
     font-weight: 600;
-}
-
-.main-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 40rem;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 2rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-    border-radius: 0 0 8px 8px;
-}
-
-.map,
-.info {
-    width: 100%;
-    background-color: var(--img-border-color);
-}
-
-.map {
-    padding: 1rem 1rem 0.5rem 1rem;
-    border-radius: 8px 8px 0 0;
-}
-
-.city,
-.street,
-.phone {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-    margin-left: 3rem;
-}
-
-.material-symbols-outlined {
-    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
 }
 
 .image-left,
@@ -338,6 +295,81 @@ main {
 .image-right img {
     height: 10rem;
     width: auto;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+
+.main-menu h1 {
+    font-size: 3rem;
+}
+
+.dinner,
+.dessert,
+.drink {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    background-color: var(--img-border-color);
+    border-radius: 8px;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.dinner-item,
+.dessert-item,
+.drink-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    border-bottom: 1px solid #a8a29e;
+}
+
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 40rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border-radius: 0 0 8px 8px;
+}
+
+.map,
+.info {
+    width: 100%;
+    background-color: var(--img-border-color);
+}
+
+.map {
+    padding: 1rem 1rem 0.5rem 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.city,
+.street,
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 3rem;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 48;
 }
 
 .image-map {
