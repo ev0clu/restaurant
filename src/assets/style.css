@@ -233,15 +233,13 @@ main {
     justify-content: flex-end;
     align-items: center;
     font-family: 'Michroma', sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
     color: var(--font-color);
 }
 
 .main-home p:nth-child(1) {
     font-size: 3rem;
     font-weight: 900;
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 0.5px white;
 }
 
 .main-home p:nth-child(2) {
