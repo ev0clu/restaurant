@@ -239,7 +239,7 @@ main {
 .main-home p:nth-child(1) {
     font-size: 3rem;
     font-weight: 900;
-    -webkit-text-stroke: 0.5px white;
+    -webkit-text-stroke: 0.1px white;
 }
 
 .main-home p:nth-child(2) {
