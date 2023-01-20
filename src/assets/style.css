@@ -226,16 +226,27 @@ main {
     justify-self: center;
 }
 
-.main-home p {
+.text {
     grid-column: 1/4;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     font-family: 'Michroma', sans-serif;
     font-size: 3rem;
     font-weight: 900;
     color: var(--font-color);
+}
+
+.main-home p:nth-child(1) {
+    font-size: 3rem;
+    font-weight: 900;
     -webkit-text-stroke: 1px white;
+}
+
+.main-home p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .main-contact {

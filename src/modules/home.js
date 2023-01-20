@@ -5,8 +5,13 @@ import Barista from '../assets/barista.jpg';
 function createHomePage() {
     const home = document.createElement('div');
     home.classList.add('main-home');
-    const text = document.createElement('p');
-    text.textContent = 'Book a table still today!';
+
+    const text = document.createElement('div');
+    text.classList.add('text');
+    const textTop = document.createElement('p');
+    textTop.textContent = 'Book a table still today!';
+    const textBottom = document.createElement('p');
+    textBottom.textContent = 'Mon - Sun, 10:00am - 10:00pm';
 
     const imageLeftDiv = document.createElement('div');
     const imageLeft = document.createElement('img');
@@ -27,6 +32,8 @@ function createHomePage() {
     imageMiddleDiv.appendChild(imageMiddle);
     imageRightDiv.appendChild(imageRight);
 
+    text.appendChild(textTop);
+    text.appendChild(textBottom);
     home.appendChild(text);
     home.appendChild(imageLeftDiv);
     home.appendChild(imageMiddleDiv);
