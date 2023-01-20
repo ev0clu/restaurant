@@ -2,6 +2,7 @@ import './assets/style.css';
 
 import { addHomePage } from './modules/home';
 import addContactPage from './modules/contact';
+import addMenuPage from './modules/menu';
 import initPage from './modules/init';
 
 initPage();
@@ -12,9 +13,9 @@ menuBar.forEach((link) => {
     link.addEventListener('click', () => {
         if (link.classList.contains('home')) {
             addHomePage();
-        } /*else if (link.classList.contains('menu')) {
-            createMenuPage();
-        } */ else if (link.classList.contains('contact')) {
+        } else if (link.classList.contains('menu')) {
+            addMenuPage();
+        } else if (link.classList.contains('contact')) {
             addContactPage();
         }
     });

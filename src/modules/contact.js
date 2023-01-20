@@ -37,6 +37,14 @@ function createContactPage() {
     const phone = document.createElement('p');
     phone.textContent = '202-555-0157';
 
+    const contactTime = document.createElement('div');
+    contactTime.classList.add('time');
+    const timeIcon = document.createElement('span');
+    phoneIcon.classList.add('material-symbols-outlined');
+    phoneIcon.textContent = 'event_available';
+    const time = document.createElement('p');
+    phone.textContent = 'Mon - Sun, 10:00am - 10:00pm';
+
     contactMap.appendChild(mapConent);
 
     contactCity.appendChild(cityIcon);
@@ -50,6 +58,10 @@ function createContactPage() {
     contactPhone.appendChild(phoneIcon);
     contactPhone.appendChild(phone);
     contactInfo.appendChild(contactPhone);
+
+    contactTime.appendChild(timeIcon);
+    contactTime.appendChild(time);
+    contactInfo.appendChild(contactTime);
 
     contactDiv.appendChild(contactMap);
     contactDiv.appendChild(contactInfo);
