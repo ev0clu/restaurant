@@ -336,16 +336,6 @@ main {
     max-width: 40rem;
 }
 
-.info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    font-size: 2rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-    border-radius: 0 0 8px 8px;
-}
-
 .map,
 .info {
     width: 100%;
@@ -355,6 +345,18 @@ main {
 .map {
     padding: 1rem 1rem 0.5rem 1rem;
     border-radius: 8px 8px 0 0;
+    margin-top: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 2rem;
+    padding: 0.5rem 1rem 1rem 1rem;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 1rem;
 }
 
 .city,
