@@ -226,6 +226,12 @@ main {
     justify-self: center;
 }
 
+.main-home,
+.main-menu,
+.main-contact {
+    margin: 1rem 0 1rem 0;
+}
+
 .main-home .text {
     grid-column: 1/4;
     display: flex;
@@ -254,7 +260,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 1rem;
 }
 
 .image-left img {
@@ -300,7 +305,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin-top: 1rem;
 }
 
 .main-menu h1 {
@@ -345,7 +349,6 @@ main {
 .map {
     padding: 1rem 1rem 0.5rem 1rem;
     border-radius: 8px 8px 0 0;
-    margin-top: 1rem;
 }
 
 .info {
@@ -356,7 +359,6 @@ main {
     font-size: 2rem;
     padding: 0.5rem 1rem 1rem 1rem;
     border-radius: 0 0 8px 8px;
-    margin-bottom: 1rem;
 }
 
 .city,

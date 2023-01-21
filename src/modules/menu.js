@@ -8,9 +8,9 @@ class Menu {
 function createMenuList(array, containerName, title, item) {
     const container = document.createElement('div');
     container.classList.add(containerName);
-    const dinnerTitle = document.createElement('h1');
-    dinnerTitle.textContent = title;
-    container.appendChild(dinnerTitle);
+    const heading = document.createElement('h1');
+    heading.textContent = title;
+    container.appendChild(heading);
 
     for (let i = 0; i < array.length; i++) {
         const div = document.createElement('div');
